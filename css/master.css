@@ -788,7 +788,7 @@ header nav .search-box i {
 }
 @media (max-width: 767px) {
   .skills .right .content article .skill span::after {
-    top: -14px;
+    top: -18px;
   }
 }
 /* end statics */
