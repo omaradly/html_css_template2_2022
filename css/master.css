@@ -386,7 +386,7 @@ header nav .search-box i {
   color: white;
   padding: 50px;
 }
-@media (max-width: 299px) {
+@media (max-width: 370px) {
   .our-design .text-box {
     padding: 50px 10px;
   }
@@ -409,7 +409,7 @@ header nav .search-box i {
     max-width: 100%;
     flex: initial;
   }
-  .our-design .content{
+  .our-design .content {
     position: initial;
   }
 }
@@ -785,6 +785,11 @@ header nav .search-box i {
   border-color: black transparent transparent;
   right: -8px;
   top: -15px;
+}
+@media (max-width: 767px) {
+  .skills .right .content article .skill span::after {
+    top: -16px;
+  }
 }
 /* end statics */
 /* start quote */
